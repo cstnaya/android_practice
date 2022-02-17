@@ -9,16 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractice">
+
         <activity
-            android:name=".lesson1.MainActivity"
-            android:exported="true">
+            android:name=".lesson2.Lesson2MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".lesson2.Lesson2SecondActivity" />
 
+        <activity android:name=".lesson1.MainActivity" />
         <activity android:name=".lesson1.HomeActivity" />
     </application>
 
