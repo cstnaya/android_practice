@@ -11,6 +11,8 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson2/layout/activity_second.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson3/layout/activity_login.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson3/layout/activity_register_result.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson4/layout/activity_main_4.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson4/layout/activity_pay.xml" value="0.20729166666666668" />
       </map>
     </option>
   </component>
@@ -19,5 +21,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.20729166666666668" />
+      </ProjectState>
+    </option>
   </component>
 </project>
