@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    按壓這種特殊狀態要寫在最上面-->
+    <item
+        android:drawable="@drawable/shape_take_photo_btn_press"
+        android:state_pressed="true" />
+
+    <!--    默認設置要寫在最底下-->
+    <item android:drawable="@drawable/shape_take_photo_btn_normal" />
+</selector>

@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/drawable/selector_take_photo_btn.xml" value="0.23125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/drawable/shape_take_photo_btn_normal.xml" value="0.23125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/drawable/shape_take_photo_btn_press.xml" value="0.23125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layout/activity_home.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson1/layout/activity_main.xml" value="0.22760416666666666" />
@@ -13,6 +16,7 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson3/layout/activity_register_result.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson4/layout/activity_main_4.xml" value="0.20729166666666668" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson4/layout/activity_pay.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson5/layout/activity_photo.xml" value="0.21510416666666668" />
       </map>
     </option>
   </component>
