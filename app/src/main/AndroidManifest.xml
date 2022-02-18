@@ -10,13 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractice">
 
-        <!-- 設置為 singleTop -->
-        <activity android:name=".lesson6.FirstActivity" android:launchMode="singleTop" android:exported="true">
+        <activity android:name=".lesson7.LoginStorageActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- 設置為 singleTop -->
+        <activity android:name=".lesson6.FirstActivity" android:launchMode="singleTop" />
         <activity android:name=".lesson6.SecondActivity" android:launchMode="singleTop" />
 
         <activity android:name=".lesson5.PhotoActivity" />
