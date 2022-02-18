@@ -10,12 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractice">
 
-        <activity android:name=".lesson5.PhotoActivity" android:exported="true">
+        <!-- 設置為 singleTop -->
+        <activity android:name=".lesson6.FirstActivity" android:launchMode="singleTop" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".lesson6.SecondActivity" android:launchMode="singleTop" />
+
+        <activity android:name=".lesson5.PhotoActivity" />
 
         <activity android:name=".lesson4.MainActivity" />
         <activity android:name=".lesson4.PayActivity" />
