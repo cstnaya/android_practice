@@ -42,6 +42,7 @@ android {
                     'src/main/res/layouts/lesson6',
                     'src/main/res/layouts/lesson7',
                     'src/main/res/layouts/lesson8',
+                    'src/main/res/layouts/lesson9',
                     'src/main/res/layouts',
                     'src/main/res'
             ]
