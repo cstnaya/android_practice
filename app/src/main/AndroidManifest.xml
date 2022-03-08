@@ -12,12 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractice">
 
-        <activity android:name=".lesson10.ApiFetchActivity" android:exported="true">
+        <activity android:name=".lesson11.CapturePhotoActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".lesson10.ApiFetchActivity" />
 
         <activity android:name=".lesson9.ThreadHandlerActivity" />
 
