@@ -6,6 +6,8 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21979166666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21979166666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/drawable/selector_take_photo_btn.xml" value="0.23125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/drawable/shape_rect.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/drawable/shape_rect_green.xml" value="0.26979166666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/drawable/shape_take_photo_btn_normal.xml" value="0.23125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/drawable/shape_take_photo_btn_press.xml" value="0.23125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layout/activity_home.xml" value="0.20260416666666667" />
@@ -17,6 +19,11 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson10/layout/recycle_item.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson11/layout/activity_capture_photo.xml" value="0.18125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson11/layout/custom_menu_layout.xml" value="0.18125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson12/layout/activity_calculator.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson12/layout/activity_linear.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson12/layout/activity_relative.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson12/layout/activity_relative_parent.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson12/layout/activity_relative_sibling.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson2/layout/activity_main_2.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson2/layout/activity_second.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidPractice/app/src/main/res/layouts/lesson3/layout/activity_login.xml" value="0.21666666666666667" />

@@ -12,12 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractice">
 
-        <activity android:name=".lesson11.CapturePhotoActivity" android:exported="true">
+        <activity android:name=".lesson12.LinearLayoutActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".lesson12.RelativeLayoutActivity" />
+        <activity android:name=".lesson12.CalculatorActivity" />
+
+        <activity android:name=".lesson11.CapturePhotoActivity" />
 
         <activity android:name=".lesson10.ApiFetchActivity" />
 
