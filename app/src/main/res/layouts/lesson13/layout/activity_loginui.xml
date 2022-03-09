@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_alpha25">
+
+    <!-- background image 的新增方式:
+         把圖片拖移到 res/drawable/ 裡面。
+         圖片不要太大，格式盡量 .jpg / .png
+     -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="15dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="28dp"
+    >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="請輸入帳號"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="請輸入密碼"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginBottom="25dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:backgroundTint="#262527" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="忘記密碼"
+                android:textSize="20sp"
+                android:textColor="#f1f1f1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="註冊新帳號"
+                android:textSize="20sp"
+                android:textColor="#f1f1f1"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="登入即代表同意與閱讀上述條款。"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+</RelativeLayout>
