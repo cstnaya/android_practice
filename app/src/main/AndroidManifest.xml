@@ -50,6 +50,8 @@
 
         <activity android:name=".lesson1.MainActivity" />
         <activity android:name=".lesson1.HomeActivity" />
+
+        <meta-data android:name="api_key" android:value="${api_key}" />
     </application>
 
 </manifest>

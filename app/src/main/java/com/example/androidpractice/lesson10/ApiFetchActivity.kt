@@ -3,6 +3,8 @@ package com.example.androidpractice.lesson10
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.content.pm.ApplicationInfo
+import android.content.pm.PackageManager
 import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
@@ -40,8 +42,14 @@ class ApiFetchActivity: Activity() {
     }
 
     private fun fetchData() {
+        // fetch key from local.properties
+        val ai: ApplicationInfo = applicationContext.packageManager
+                                    .getApplicationInfo(applicationContext.packageName,
+                                                        PackageManager.GET_META_DATA)
+        val key = ai.metaData["api_key"]
+
         val client = AsyncHttpClient()
-        val url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUCVejYJMmo-B0GqZbEJpiPw&maxResult=100&key=AIzaSyBT8_Kjw7eW5PtO2BIHRX-1gygJV_etrmo"
+        val url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUCVejYJMmo-B0GqZbEJpiPw&maxResult=100&key=${key}"
         client.get(url, object: AsyncHttpResponseHandler() {
             override fun onSuccess(
                 statusCode: Int,
